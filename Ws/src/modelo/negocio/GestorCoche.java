@@ -29,7 +29,7 @@ public class GestorCoche {
 			if(c.getModelo() == null || c.getModelo().isBlank()) {
 				return 2;
 			}
-			//dcf.addCoche(c);
+			dcf.addCoche(c);
 			return 3;
 			
 		} catch (Exception e) {
