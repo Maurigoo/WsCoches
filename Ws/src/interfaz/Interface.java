@@ -19,13 +19,15 @@ public class Interface {
         int opcion = 0;
 
         do {
-            System.out.println("Bienvenido/a a nuestra app de coches");
-            System.out.println("1. Introducir coche");
-            System.out.println("2. Obtener coche por ID");
-            System.out.println("3. Borrar coche por ID");
-            System.out.println("4. Listar todos los coches");
-            System.out.println("5. Salir");
-            System.out.print("Elija una opción: ");
+            System.out.println("Bienvenido/a a nuestra app de coches :)");
+            System.out.println(" A continuación elija una opción: ");
+            System.out.println("");
+            System.out.println(" 1. Introducir coche");
+            System.out.println(" 2. Obtener coche por ID");
+            System.out.println(" 3. Borrar coche por ID");
+            System.out.println(" 4. Listar todos los coches");
+            System.out.println(" 5. Salir");
+            System.out.print(" Elija una opción: ");
             opcion = scInt.nextInt();
 
             switch (opcion) {
