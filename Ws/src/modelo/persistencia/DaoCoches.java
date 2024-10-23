@@ -56,7 +56,12 @@ public class DaoCoches {
 			ultimoId = coches.size() > 0 ? coches.get(coches.size() - 1).getId() + 1 : 1;
 		} catch (IOException | ClassNotFoundException e) {
 			e.printStackTrace();
+			
+			coches = new ArrayList<>();
+			ultimoId = 1;
 		}
+	
+		
 	}
 
 	/***
