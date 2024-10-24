@@ -39,7 +39,7 @@ public class DaoCoches {
 	 */
 	private void persistirFichero() {
 
-		try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("coches.dat"))) {
+		try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("coches.dat", true))) {
 			out.writeObject(coches);
 		} catch (IOException e) {
 			e.printStackTrace();
